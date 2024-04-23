@@ -11,6 +11,8 @@ const devMode = mode === "development";
 const target = devMode ? "web" : "browserslist";
 const devtool = devMode ? "source-map" : undefined;
 
+let cleanVar = !devMode;
+
 module.exports = {
   mode,
   target,
@@ -29,8 +31,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
-    clean: true,
+    clean: cleanVar,
     filename: "[name].[contenthash].js",
     assetModuleFilename: "assets/[name][ext]",
   },
@@ -44,6 +45,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "[name].[contenthash].css",
+      chunkFilename: "./[id].[contenthash].css",
     }),
   ],
   module: {
