@@ -1,0 +1,16 @@
+<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow-Up-1--Streamline-Core.svg" clip-path="url(#clip0_600_2365)">
+<g id="Arrow-Up-1--Streamline-Core.svg_2">
+<g id="Vector">
+<path d="M0.393196 5.5L10.6075 5.5L0.393196 5.5Z" fill="#8CA9EA"/>
+<path d="M0.393196 5.5L10.6075 5.5" stroke="#8CA9EA" stroke-width="0.785714" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector_2" d="M7.85742 8.25L10.6074 5.5L7.85742 2.75" stroke="#8CA9EA" stroke-width="0.785714" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_600_2365">
+<rect width="11" height="11" fill="white" transform="translate(11) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>
